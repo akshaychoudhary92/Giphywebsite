@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>week-6-ajax-apis</title>
+	<!--
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	-->
+	<!-- Bootstrap File -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<style type="text/css">
+		button, div, form, input {
+			margin: 10px;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- <body background="assets/images/80s-cartoons-37-background.jpg"> -->
+
+<!-- <div class="container"> -->
+  <!-- <h1>Add a Cartoon!</h1> -->
+
+  <!-- Rendered Buttons will get Dumped Here  -->
+  <div id="buttonsView"></div>
+
+  <form id="cartoon-form">
+  	<h3 id="searchTitle">Add a Cartoon!</h3>
+    <label for="cartoon-input"></label>
+    <input type="text" id="cartoon-input"><br>
+    
+    <!-- Button triggers new cartoon to be added -->
+    <input type="button" class="btn btn-danger" id="addcartoon" type="submit" value="Add cartoon">
+  </form>
+  
+
+  <!-- cartoons will Get Dumped Dere -->
+  <div id="cartoonsView"></div>
+
+<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+<script type="text/javascript" src="app.js"></script>
+
+
+</body>
+</html>
